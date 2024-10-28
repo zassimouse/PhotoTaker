@@ -11,7 +11,9 @@ import SwiftUI
 struct PhotoTakerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                ContentView()
+            }
         }
     }
 }
